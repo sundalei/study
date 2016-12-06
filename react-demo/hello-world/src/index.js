@@ -14,7 +14,11 @@ import ReactDOM from 'react-dom';
 //import WelcomeDialog from './components/WelcomeDialog';
 //import App from './components/SplitPane';
 //import SignUpDialog from './components/SignUpDialog';
-import FilterableProductTable from './components/FilterableProductTable';
+//import FilterableProductTable from './components/FilterableProductTable';
+//import BlueDatePicker from './components/advance/MyComponents';
+//import Greeting from './components/advance/Greeting';
+//import AutoFocusTextInput from './components/advance/CustomTextInput';
+import NameForm from './components/advance/NameForm';
 
 var PRODUCTS = [
   {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
@@ -26,6 +30,6 @@ var PRODUCTS = [
 ];
 
 ReactDOM.render(
-    <FilterableProductTable products={PRODUCTS} />,
+    <NameForm  />,
     document.getElementById('root')
 );
