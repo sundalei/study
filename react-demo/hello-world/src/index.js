@@ -18,7 +18,8 @@ import ReactDOM from 'react-dom';
 //import BlueDatePicker from './components/advance/MyComponents';
 //import Greeting from './components/advance/Greeting';
 //import AutoFocusTextInput from './components/advance/CustomTextInput';
-import NameForm from './components/advance/NameForm';
+//import NameForm from './components/advance/NameForm';
+import Hello from './components/advance/Hello';
 
 var PRODUCTS = [
   {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
@@ -29,7 +30,14 @@ var PRODUCTS = [
   {category: 'Electronics', price: '$199.99', stocked: true, name: 'Nexus 7'}
 ];
 
+/*
 ReactDOM.render(
     <NameForm  />,
     document.getElementById('root')
+);
+*/
+
+ReactDOM.render(
+  React.createElement(Hello, {toWhat: 'world'}, null),
+  document.getElementById('root')
 );
