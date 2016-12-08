@@ -18,8 +18,12 @@ import ReactDOM from 'react-dom';
 //import BlueDatePicker from './components/advance/MyComponents';
 //import Greeting from './components/advance/Greeting';
 //import AutoFocusTextInput from './components/advance/CustomTextInput';
-import NameForm from './components/advance/NameForm';
+//import NameForm from './components/advance/NameForm';
+//import CounterButton from './components/advance/CounterButton';
+//import WordAdder from './components/advance/WordAdder';
+import TickTock from './components/advance/TickTock';
 
+/*
 var PRODUCTS = [
   {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
   {category: 'Sporting Goods', price: '$9.99', stocked: true, name: 'Baseball'},
@@ -28,8 +32,9 @@ var PRODUCTS = [
   {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
   {category: 'Electronics', price: '$199.99', stocked: true, name: 'Nexus 7'}
 ];
+*/
 
 ReactDOM.render(
-    <NameForm  />,
+    <TickTock />,
     document.getElementById('root')
 );
