@@ -21,7 +21,8 @@ import ReactDOM from 'react-dom';
 //import NameForm from './components/advance/NameForm';
 //import CounterButton from './components/advance/CounterButton';
 //import WordAdder from './components/advance/WordAdder';
-import TickTock from './components/advance/TickTock';
+//import TickTock from './components/advance/TickTock';
+import Hello from './components/advance/Hello';
 
 /*
 var PRODUCTS = [
@@ -34,7 +35,14 @@ var PRODUCTS = [
 ];
 */
 
+/*
 ReactDOM.render(
     <TickTock />,
     document.getElementById('root')
+);
+*/
+
+ReactDOM.render(
+  React.createElement(Hello, {toWhat: 'world'}, null),
+  document.getElementById('root')
 );
