@@ -22,7 +22,8 @@ import ReactDOM from 'react-dom';
 //import CounterButton from './components/advance/CounterButton';
 //import WordAdder from './components/advance/WordAdder';
 //import TickTock from './components/advance/TickTock';
-import Hello from './components/advance/Hello';
+//import Hello from './components/advance/Hello';
+import MessageList from './components/advance/MessageList';
 
 /*
 var PRODUCTS = [
@@ -42,7 +43,16 @@ ReactDOM.render(
 );
 */
 
+/*
 ReactDOM.render(
   React.createElement(Hello, {toWhat: 'world'}, null),
+  document.getElementById('root')
+);
+*/
+
+const messages = ['hello', 'world', 'welcome'];
+
+ReactDOM.render(
+  <MessageList messages={messages} />,
   document.getElementById('root')
 );
