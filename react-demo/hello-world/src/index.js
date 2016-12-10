@@ -1,9 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Form from './components/uncontrol/Form';
+import Select from './reference/Select';
 
 ReactDOM.render(
-  <Form />,
+  (
+    <Select>
+      <span>Apple</span>
+      <span>Pear</span>
+      <span>Orange</span>
+    </Select>
+  ),
   document.getElementById('root')
 );
