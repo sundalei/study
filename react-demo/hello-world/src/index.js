@@ -1,15 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Select from './reference/Select';
+import LifeCycle from './reference/LifeCycle';
 
 ReactDOM.render(
-  (
-    <Select>
-      <span>Apple</span>
-      <span>Pear</span>
-      <span>Orange</span>
-    </Select>
-  ),
+  <LifeCycle />,
   document.getElementById('root')
 );
