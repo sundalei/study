@@ -1,8 +1,0 @@
-exports[`test Link renders correctly 1`] = `
-<a
-  onClick={[Function]}
-  page="http://www.baidu.com"
-  style={Object {}}>
-  Baidu
-</a>
-`;
